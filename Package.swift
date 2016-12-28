@@ -1,6 +1,5 @@
 import PackageDescription
 
-_ = Package(
-      name: "Version",
-      exclude: [ "VersionTests" ]
-    )
+let package = Package(
+	name: "Version"
+)
